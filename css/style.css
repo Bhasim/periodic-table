@@ -80,3 +80,11 @@ tr:nth-child(7) :nth-child(18)
 {
   background-color: rgba(222, 163, 0, 0.5);
 }
+
+/* Add the color purple */
+tr:nth-child(n+2):nth-child(-n +7) :nth-child(n +18),
+tr:nth-child(7) :nth-child(16)
+{
+  background-color: rgba(222, 0, 222, 0.5);
+}
+
