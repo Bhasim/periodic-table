@@ -124,7 +124,14 @@ tr:nth-child(7) :nth-child(15)
 
 /* Add the turmeric color */
 tr:nth-child(n+9) :nth-child(n +2):nth-child(-n +15),
-tr:nth-child(7) :nth-child(n +3):nth-child(3) 
+tr:nth-child(7) :nth-child(3) 
 {
   background-color: rgba(68, 136, 141, 0.733);
+}
+
+/* Add the turmeric color */
+tr:nth-child(8) :nth-child(n +2):nth-child(-n +15),
+tr:nth-child(6) :nth-child(3) 
+{
+  background-color: rgba(123, 173, 214, 0.733);
 }
